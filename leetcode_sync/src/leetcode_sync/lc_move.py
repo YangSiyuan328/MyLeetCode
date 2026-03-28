@@ -9,12 +9,7 @@ import os
 import shutil
 import sys
 
-# 项目根目录（leetcode_sync/），与 env_utils 保持一致
-_PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-_MY_LEETCODE_ROOT = os.path.dirname(_PROJECT_ROOT)
-
-PROBLEMS_DIR = os.path.join(_PROJECT_ROOT, "generated", "leetcode", "problems")
-TARGET_DIR = os.path.join(_MY_LEETCODE_ROOT, "src", "leetcode", "problems")
+from env_utils import PROBLEMS_DIR, TARGET_DIR
 
 
 def move_problem(number: str) -> None:

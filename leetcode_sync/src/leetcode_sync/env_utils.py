@@ -28,6 +28,9 @@ CONCURRENCY = int(os.getenv("LEETCODE_DETAIL_CONCURRENCY", "2"))
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, os.environ["LEETCODE_OUTPUT_DIR"])
 DATA_DIR = os.path.join(PROJECT_ROOT, "data")
 GENERATED_DIR = os.path.join(PROJECT_ROOT, "generated", "leetcode")
+MY_LEETCODE_ROOT = os.path.dirname(PROJECT_ROOT)
+PROBLEMS_DIR = os.path.join(GENERATED_DIR, "problems")
+TARGET_DIR = os.path.join(MY_LEETCODE_ROOT, "src", "leetcode", "problems")
 
 # 文件路径
 LIST_CSV = os.path.join(OUTPUT_DIR, "题目列表.csv")
