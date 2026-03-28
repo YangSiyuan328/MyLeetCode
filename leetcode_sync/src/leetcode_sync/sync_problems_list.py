@@ -10,7 +10,7 @@ import os
 import time
 import urllib.request
 
-from .env_utils import DATA_DIR, GRAPHQL_QUERY, HEADERS, LIMIT, LIST_CSV, MAX_FETCH, OUTPUT_DIR, URL
+from env_utils import DATA_DIR, GRAPHQL_QUERY, HEADERS, LIMIT, LIST_CSV, MAX_FETCH, OUTPUT_DIR, URL
 
 OUTPUT = LIST_CSV  # 题目列表输出文件
 

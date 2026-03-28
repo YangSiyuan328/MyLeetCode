@@ -13,7 +13,7 @@ import time
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-from .env_utils import CONCURRENCY, COOKIE, HEADERS, LIST_CSV, OUTPUT_DIR, DETAIL_CSV
+from env_utils import CONCURRENCY, COOKIE, HEADERS, LIST_CSV, OUTPUT_DIR, DETAIL_CSV
 
 OUTPUT_CSV = DETAIL_CSV  # 题目详情输出文件
 

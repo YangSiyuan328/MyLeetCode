@@ -5,5 +5,5 @@ LeetCode 题目同步工具包
 - sync_problems_list: 拉取题目列表
 - parse_problem_detail: 拉取题目详情
 - generate_markdown: 生成 Markdown 文件
-- move_problem: 将题目移动到 temp 目录
+- py_lc_move: 将题目复制到刷题目录
 """

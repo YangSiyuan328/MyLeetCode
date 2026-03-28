@@ -10,7 +10,7 @@ import shutil
 
 import html2text
 
-from .env_utils import DETAIL_CSV, GENERATED_DIR
+from env_utils import DETAIL_CSV, GENERATED_DIR
 
 # 题目类型到目录名的映射
 TYPE_DIR_MAP = {
