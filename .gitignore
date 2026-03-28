@@ -1,0 +1,50 @@
+# Java compiled files
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Claude Code
+.claude/
+
+# Python (leetcode_sync 子项目)
+leetcode_sync/__pycache__/
+leetcode_sync/*.py[oc]
+leetcode_sync/build/
+leetcode_sync/dist/
+leetcode_sync/wheels/
+leetcode_sync/*.egg-info
+leetcode_sync/.pytest_cache/
+leetcode_sync/.venv/
+leetcode_sync/.env

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "leetcode-sync"
+version = "0.1.0"
+description = "Standalone sync scaffold for generating LeetCode problem drafts"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "html2text>=2025.4.15",
+    "python-dotenv>=1.2.2",
+]
+
+[project.scripts]
+leetcode-sync = "leetcode_sync.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/leetcode_sync"]

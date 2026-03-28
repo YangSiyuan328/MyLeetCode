@@ -1,0 +1,7 @@
+package leetcode.problems.lc2719_count_of_integers;
+
+class Solution {
+    public int count(String num1, String num2, int min_sum, int max_sum) {
+        
+    }
+}

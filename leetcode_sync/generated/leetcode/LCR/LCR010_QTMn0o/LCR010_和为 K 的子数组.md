@@ -1,0 +1,71 @@
+# LCR 010. 和为 K 的子数组
+
+<table>
+<tr><td><b>难度</b></td><td>Medium</td></tr>
+<tr><td><b>标签</b></td><td>数组;哈希表;前缀和</td></tr>
+<tr><td><b>会员</b></td><td>否</td></tr>
+<tr><td><b>链接</b></td><td><a href="https://leetcode.cn/problems/QTMn0o/description/">在线练习</a></td></tr>
+</table>
+
+## 题目描述
+
+给定一个整数数组和一个整数 `k`**，** 请找到该数组中和为 `k`** ** 的连续子数组的个数。
+
+**示例 1：**
+
+**输入:** nums = [1,1,1], k = 2
+
+**输出:** 2
+
+**解释:** 此题 [1,1] 与 [1,1] 为两种不同的情况
+
+**示例 2：**
+
+**输入:** nums = [1,2,3], k = 3
+
+**输出:** 2
+
+**提示:**
+  * `1 <= nums.length <= 2 * 104`
+  * `-1000 <= nums[i] <= 1000`
+  * `-107 <= k <= 107`
+注意：本题与主站 560 题相同： <https://leetcode.cn/problems/subarray-sum-equals-k/>
+
+## 示例
+
+```
+[1,1,1]
+2
+[1,2,3]
+3
+```
+
+## 参考答案
+
+```java
+class Solution {
+    public int subarraySum(int[] nums, int k) {
+
+    }
+}
+```
+
+## 一刷思路
+
+```java
+class Solution {
+    public int subarraySum(int[] nums, int k) {
+
+    }
+}
+```
+
+## 二刷思路
+
+```java
+class Solution {
+    public int subarraySum(int[] nums, int k) {
+
+    }
+}
+```

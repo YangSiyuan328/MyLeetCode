@@ -1,0 +1,60 @@
+# 面试题 17.12. BiNode
+
+<table>
+<tr><td><b>难度</b></td><td>Easy</td></tr>
+<tr><td><b>标签</b></td><td>栈;树;深度优先搜索;二叉搜索树;链表;二叉树</td></tr>
+<tr><td><b>会员</b></td><td>否</td></tr>
+<tr><td><b>链接</b></td><td><a href="https://leetcode.cn/problems/binode-lcci/description/">在线练习</a></td></tr>
+</table>
+
+## 题目描述
+
+二叉树数据结构`TreeNode`可用来表示单向链表（其中`left`置空，`right`为下一个链表节点）。实现一个方法，把二叉搜索树转换为单向链表，要求依然符合二叉搜索树的性质，转换操作应是原址的，也就是在原始的二叉搜索树上直接修改。
+返回转换后的单向链表的头节点。
+
+**注意：** 本题相对原题稍作改动
+
+**示例：**
+
+**输入：** [4,2,5,1,3,null,6,0]
+
+**输出：** [0,null,1,null,2,null,3,null,4,null,5,null,6]
+
+**提示：**
+  * 节点数量不会超过 100000。
+
+## 示例
+
+```
+[4,2,5,1,3,null,6,0]
+```
+
+## 参考答案
+
+```java
+class Solution {
+    public TreeNode convertBiNode(TreeNode root) {
+        
+    }
+}
+```
+
+## 一刷思路
+
+```java
+class Solution {
+    public TreeNode convertBiNode(TreeNode root) {
+        
+    }
+}
+```
+
+## 二刷思路
+
+```java
+class Solution {
+    public TreeNode convertBiNode(TreeNode root) {
+        
+    }
+}
+```

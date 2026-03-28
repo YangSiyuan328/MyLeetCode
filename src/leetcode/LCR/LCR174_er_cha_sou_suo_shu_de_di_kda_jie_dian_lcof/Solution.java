@@ -1,0 +1,22 @@
+package leetcode.LCR.LCR174_er_cha_sou_suo_shu_de_di_kda_jie_dian_lcof;
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public int findTargetNode(TreeNode root, int cnt) {
+        
+    }
+}
