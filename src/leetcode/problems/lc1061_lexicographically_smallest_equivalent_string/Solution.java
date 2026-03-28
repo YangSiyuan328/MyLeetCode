@@ -1,7 +1,0 @@
-package leetcode.problems.lc1061_lexicographically_smallest_equivalent_string;
-
-class Solution {
-    public String smallestEquivalentString(String s1, String s2, String baseStr) {
-        
-    }
-}

@@ -1,7 +1,0 @@
-package leetcode.problems.lc1466_reorder_routes_to_make_all_paths_lead_to_the_city_zero;
-
-class Solution {
-    public int minReorder(int n, int[][] connections) {
-        
-    }
-}
