@@ -48,3 +48,6 @@ leetcode_sync/*.egg-info
 leetcode_sync/.pytest_cache/
 leetcode_sync/.venv/
 leetcode_sync/.env
+
+# java 直接java的旧版代码文件
+legacy/

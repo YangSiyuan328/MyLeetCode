@@ -1,9 +1,8 @@
 package leetcode.problems.lc1005_maximize_sum_of_array_after_k_negations;
 
-import java.util.Collections;
 import java.util.PriorityQueue;
 
-class Solution {
+class Solution_1 {
 
     public static int largestSumAfterKNegations(int[] nums, int k) {
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
